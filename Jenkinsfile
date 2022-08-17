@@ -1,5 +1,5 @@
 node ("Devops-node"){
-    def mvn_version = 'maven3.8.4'
+    def mvn_version = 'maven3.8.6'
 
     stage('clone') { // for display purposes
         git 'https://github.com/bablibhai/java-web-app-docker.git'

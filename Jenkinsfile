@@ -1,8 +1,8 @@
-node ("rhel-node"){
+node ("Devops-node"){
     def mvn_version = 'maven3.8.4'
 
     stage('clone') { // for display purposes
-        git 'https://github.com/daticahealth/java-tomcat-maven-example.git'
+        git 'https://github.com/bablibhai/java-web-app-docker.git'
     }
     stage('Build') {
 
